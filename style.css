@@ -12,6 +12,7 @@ body {
     background-color: white;
 }
 
+
 main {
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +37,11 @@ header * {
     font-size: 25px;
 }
 
+
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
 #menu {
     position: sticky;
     top: 0px;
@@ -125,4 +131,11 @@ img {
     border-style: solid;
     border-color: rgba(0, 0, 0, .25);
     /* z-index: -1; */
+}
+
+.attributions {
+    align-items: baseline;
+    font-family: 'Inter', serif;
+    /* font-weight: bold; */
+    font-size: 12px;
 }
