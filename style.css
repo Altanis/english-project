@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+* {
+    background-color: white;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    max-width: 40rem;
+    z-index: -1;
+}
+
+header {
+    top: 0px;
+    /* padding: 1px; */
+    border-bottom: solid;
+    border-color: rgba(0, 0, 0, .25);
+    border-width: 1px;
+    z-index: 1;
+    
+}
+
+header * {
+    font-family: 'Inter', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#menu {
+    position: sticky;
+    top: 0px;
+    padding: 4px;
+    font-family: 'Inter', serif;
+    font-weight: lighter;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    z-index: 1;
+}
+#menu * {
+    font-family: 'Inter', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.paywall {
+    position: sticky;
+    bottom: 0;
+    font-family: 'Inter', serif;
+    padding: 1rem;
+    padding-bottom: 10rem;
+    box-shadow: 0 -3px 5px rgba(57, 63, 72, 0.3);
+}
+
+p,
+li,
+span {
+    font-size: 1.2rem;
+    line-height: 2em;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu ul {
+    font-size: xx-small;
+    display: flex;
+    justify-content: space-around;
+    /* align-items:flex-end; */
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img {
+    padding: 2rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ad-banner {
+    padding: 5rem 2rem;
+    text-align: center;
+    margin: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .5);
+    /* z-index: -1; */
+}
+
+.ad-column {
+    position: absolute;
+    padding: 20rem 1rem;
+    margin: 1.5rem;
+    right: 0;
+    /* left: 1; */
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .25);
+    /* z-index: -1; */
+}
